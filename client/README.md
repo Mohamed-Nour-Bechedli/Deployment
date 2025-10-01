@@ -1,16 +1,45 @@
-# React + Vite
+# MERN Application Deployment on Azure
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This repository contains a **MERN (MongoDB, Express, React, Node.js) application** prepared for deployment on **Microsoft Azure** using **MongoDB Atlas** as the database service.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Table of Contents
+- [Project Overview](#project-overview)
+- [Prerequisites](#prerequisites)
+- [Setup Instructions](#setup-instructions)
+- [Deployment Steps](#deployment-steps)
+- [Environment Variables](#environment-variables)
+- [Testing](#testing)
+- [Author](#author)
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Project Overview
+This project is a full-stack MERN application that has been tested locally and is ready for deployment on Microsoft Azure. The backend uses **Node.js** and **Express**, while the frontend is built with **React**. MongoDB Atlas is used for cloud database hosting.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Prerequisites
+Before deploying this project, ensure you have:
+
+- Node.js and npm installed locally
+- A fully developed and tested MERN application
+- A Microsoft Azure account
+- A MongoDB Atlas account with a configured cluster
+- Git installed for version control
+
+---
+
+## Setup Instructions
+
+### 1. Prepare Your MERN Application
+- Ensure your backend is connected to MongoDB.
+- Verify that all features work locally.
+- Use environment variables for sensitive data (like database credentials).
+
+### 2. Build React Frontend
+```bash
+cd client
+npm install
+npm run build
