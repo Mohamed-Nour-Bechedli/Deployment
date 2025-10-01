@@ -4,9 +4,7 @@ This repository contains a **MERN (MongoDB, Express, React, Node.js) application
 
 ---
 
-
-## link AZURE
-link: https://github.com/Mohamed-Nour-Bechedli/Deployment.git
+link Azure: https://github.com/Mohamed-Nour-Bechedli/Deployment.git
 
 ## Table of Contents
 - [Project Overview](#project-overview)
